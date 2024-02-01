@@ -8,6 +8,9 @@ namespace Lab3App
 {
     class MagicWand : Tool
     {
+        public MagicWand(string desc) {
+            this.Description = desc;
+        }
         public override void Display()
         {
             Console.WriteLine("MagicWand " + this.Description + " is displayed");
